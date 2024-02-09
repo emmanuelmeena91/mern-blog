@@ -33,8 +33,8 @@ export const Header = () => {
               <FaMoon />
            </Button>  
            <Link to='/log-in'>
-          <Button gradientDuoTone='purpleToBlue'>
-               Sign In/Log In
+          <Button gradientDuoTone='purpleToBlue' outline>
+               Sign In
           </Button>  
            </Link>
            <Navbar.Toggle />

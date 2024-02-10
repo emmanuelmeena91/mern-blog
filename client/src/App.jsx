@@ -7,6 +7,7 @@ import { Dashboard } from './pages/Dashboard'
 import { Projects } from './pages/Projects'
 import { Login } from './pages/Login'
 import { Header } from './components/Header'
+import { FooterCom } from './components/Footer'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/projects" element={<Projects/>} />
 
       </Routes>
+      <FooterCom />
     </BrowserRouter>
   )
 }

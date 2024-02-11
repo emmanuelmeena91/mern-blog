@@ -83,7 +83,7 @@ export const SignUp = () => {
        </form>
        <div className='flex gap-2 tex-sm mt-5t'>
         <span>Have an account ?</span>
-        <Link to='log-in' className='text-blue-500'>
+        <Link to='/log-in' className='text-blue-500'>
           Sign In 
         </Link>
        </div>

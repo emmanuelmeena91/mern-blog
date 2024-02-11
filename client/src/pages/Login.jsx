@@ -81,7 +81,7 @@ export const Login = () => {
        </form>
        <div className='flex gap-2 tex-sm mt-5t'>
         <span>Dont have an account ?</span>
-        <Link to='sign-up' className='text-blue-500'>
+        <Link to='/sign-up' className='text-blue-500'>
           Sign Up
         </Link>
        </div>

@@ -56,7 +56,7 @@ export const Header = () => {
      </Link>
   <Dropdown.Divider />
   <Dropdown.Item>Sign out</Dropdown.Item>
-          </Dropdown>
+          </Dropdown> 
 
 
            ):
